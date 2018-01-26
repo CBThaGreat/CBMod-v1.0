@@ -1792,8 +1792,8 @@
 
 <!-- bookcase -->
 <lootcontainer id="49" count="0,2" size="4,3" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="baseTemplate">
-	<item name="paper" count="2,8" prob="0.2"/>
-	<item group="books" prob="0.1"/>
+	<item name="paper" count="2,8" prob="0.4"/>
+	<item group="books" prob="0.05"/>
 	<item name="paintMagazineFaux" prob="0.05"/>
 </lootcontainer>
 
@@ -1866,7 +1866,7 @@
 
 <!-- Bookstore bookcase -->
 <lootcontainer id="60" count="0,1" size="5,3" sound_open="UseActions/open_drawer" sound_close="UseActions/close_drawer" loot_quality_template="baseTemplate">
-	<item group="books"/>
+	<item group="books" prob="0.05"/>
 </lootcontainer>
 
 <!-- feral zombie loot -->
@@ -1909,7 +1909,7 @@
 	<item name="paper" count="1,6" prob="0.3"/>
 	<item name="cloth" count="1,4" prob="0.3"/>
 	<item name="ductTape" count="1,3" prob="0.25"/>
-	<item group="books"/>
+	<item group="books" prob="0.05"/>
 	<item group="questChallenge" count="1" prob="0.27"/>
 	<item group="treasureMaps" count="1" prob="0.092"/>
 	<item group="weaponsPistol+ammo" prob="0.03"/>
@@ -2126,7 +2126,7 @@
 <!-- bookstore shipping crate -->
 <lootcontainer id="86" count="0,3" size="5,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
 	<item name="paper" count="2,8" prob="0.2"/>
-	<item group="books"/>
+	<item group="books" prob="0.05"/>
 	<item name="scrapPlastics" count="1,4" prob="0.15"/>
 </lootcontainer>
 
