@@ -29,7 +29,7 @@
 		<action type="ShowTip" value="CBModTipQuest01" />
 		<action type="TrackQuest" />
 
-		<objective type="FetchKeep" id="yuccaFibers" value="20" />
+		<objective type="FetchKeep" id="yuccaFibers" value="60" />
 		<objective type="Craft" id="bedroll" value="3" />
 		<objective type="BlockPlace" id="bedroll" value="1" />
 
